@@ -1,7 +1,24 @@
-#XBotton {
-    display:none;
+body {
+    background-color: grey;
+    background-image: url("https://images.unsplash.com/photo-1558051815-0f18e64e6280?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80");
+
 }
 
-#wholetask:hover + #XBotton {
-    display:block;
+.todoTitle {
+    color: rgb(0, 0, 0);
+}
+
+.backgroundTest {
+    background-image: url("https://images.unsplash.com/photo-1558051815-0f18e64e6280?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80");
+    opacity: 1;
+}
+
+
+#XBotton:hover {
+    color: rgb(255, 0, 0);
+    opacity:1;
+}
+
+#wholetask{
+    background-color: black;
 }
